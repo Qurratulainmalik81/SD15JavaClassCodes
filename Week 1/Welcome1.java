@@ -18,7 +18,7 @@ public class Welcome1{
         System.out.println("num1 + num2 = " + sum);
    
    // System.out.print("again\n");
-    //System.out.println("\"\tWelcome to Java\t\"\\");
+    System.out.println("\"\tWelcome to Java\t\"\\");
         System.out.printf("%d + %d = %d", num1,num2,sum);
 
     }
