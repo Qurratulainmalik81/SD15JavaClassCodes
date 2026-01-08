@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Welcome1{
     public static void main(String args[]){
-        System.out.println("Welcome to Java");
+        System.out.println("Welcome to Java " + Math.PI);
         Scanner input = new Scanner(System.in);
 
         int num1;
