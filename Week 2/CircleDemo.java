@@ -8,11 +8,13 @@ public class CircleDemo{
        
         Circle c3 = new Circle(5.0,"pink");
         System.out.println(c3);
+        Circle c4 = new Circle(c1);
+        System.out.println(c4);
 
-        System.out.println(c1.getRadius());
-        c1.setRadius(7.0);
-        c1.setColor("yellow");
-         System.out.println(c1);
-          System.out.println(c1.getArea());
+        // System.out.println(c1.getRadius());
+        // c1.setRadius(7.0);
+        // c1.setColor("yellow");
+        //  System.out.println(c1);
+        //   System.out.println(c1.getArea());
     }
 }

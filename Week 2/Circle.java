@@ -20,7 +20,12 @@ public class Circle{
         this.color = color;
         this.radius = radius;
     }
-
+    //4. Copy Constructor
+    public Circle(Circle c)
+    {
+        this.color = c.color;
+        this.radius = c.radius;
+    }
     public double getRadius()
     {
         return this.radius;
