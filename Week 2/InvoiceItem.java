@@ -7,13 +7,13 @@ public class InvoiceItem {
     private static int invoiceCount = 0; 
 
     //Constructor
-    public InvoiceItem(String id, String dsc, int quantity, double unitPrice)
-    {
-   
-        this.id = id;
-        this.desc = dsc;
-        this.qty = quantity;
-        this.unitPrice = unitPrice;
+    public InvoiceItem(String id1, String dsc1, int quantity1, double unitPrice1)
+    { 
+    
+        this.id = id1;
+        this.desc = dsc1;
+        this.qty = quantity1;
+        this.unitPrice = unitPrice1;
         invoiceCount++;
     }
     public InvoiceItem(InvoiceItem InI)
